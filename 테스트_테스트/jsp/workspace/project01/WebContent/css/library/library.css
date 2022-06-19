@@ -1,0 +1,88 @@
+    .lib_list{
+        height: 50px;
+        margin: 5px;
+        border-radius: 1em;
+    }
+    .lib_container{
+        height: 100px;
+        margin: 5px;
+        border-radius: 1em;
+        background-color: #2A2A2B;
+        overflow: hidden;
+    }
+    .lib_box1{
+        display: inline-flex;
+    	width: 85%;
+    	height: 95%;
+    	margin: 2px;
+    	text-align: center;
+    	justify-content: space-between;
+    }
+    .lib_box2{
+    	width: 13%;
+    	height: 95%;
+    	margin: 2px;
+    	padding: 5px;
+    	float: right;
+/*     	text-align: center; */
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    }
+    .lib_img{
+    	width: 20%;
+        height: 95%;
+        margin: 2px;
+        padding: 2px;
+    }
+    .lib_gameName{
+    	width: 60%;
+    	margin: 2px;
+    	padding: 2px;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+    .lib_gamePlaytime{
+    	width: 15%;
+        height: 95%;
+        margin: 2px;
+        padding: 2px;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    }
+	.card-img{
+		height: 100%;
+		margin: auto;
+	}
+	.lib-starter{
+	    color: black;
+	    font-size: 2vmin;
+	    font-weight: bolder;
+	    border-radius: 0.5em;
+	    border-color: #ffe403;
+	    background-color: #ffe403;
+	    width: 100px;
+	    height: 60px;
+/* 	    min-width: -webkit-fill-available; */
+/* 	    min-height: -webkit-fill-available; */
+	}
+	.lib-starter:hover{
+		color: white;
+		border-color: blue;
+		background-color: blue;
+	}
+	.name{
+		text-align: center;
+		font-size: 2vmin;
+/* 		float: left; */
+	}
+	.playtime{
+		text-align: center;
+		font-size: 2vmin;
+/* 		float: left; */
+	}

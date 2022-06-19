@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	body{
+		font-family: "나눔고딕",sans-serif;
+		font-size: 16px;
+		background-color: #2a2a2a;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	header{
+		height: 75px;
+		background-color: #171a21;
+		border: 1px solid black;
+		position: fixed;
+		width: 100%;
+		z-index: 9999;
+		top: 0;
+		left: 0;
+	}
+	.header{
+		width: 1140px;
+/* 		height: 90px; */
+		margin: 0 auto;
+	}
+	.header h2{
+		float: left;
+		padding-top: 28px;
+		margin-right: 25px;
+	}
+	.menu{
+		float: right;
+	}
+	.menu li{
+		float: left;
+	}
+	.menu a{
+		line-height: 75px;
+		padding: 0 15px;
+	}
+	section{
+		margin: 0 auto;
+		text-align: center;
+		padding: 100px 50px 20px;
+	}
+	footer{
+		width: 1140px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.footer div{
+		width: 200px;
+		margin-left: 40px;
+		margin-right: 40px;
+		padding: 40px;
+		float: left;
+	}
+	.footer p{
+		margin: 10px;
+	}
+	.footer .intro1{
+		color: white;
+	}
+	.footer .intro2{
+		color: white;
+	}
+	.footer .intro3{
+		color: white;
+	}
+	img{
+		color: white;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h2><a href="#">로고</a></h2>
+			<h2><a href="#">스토어</a></h2>
+			<h2><a href="#">고객지원</a></h2>
+			<nav>
+				<ul class="menu">
+					<li><a href="#"><input type="text"> 검색</a></li>
+					<li><a href="#">장바구니</a></li>
+					<li><a href="#">로그인</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section>
+		<div class="section">
+			<img alt="no" src="https://cdn.gametoc.co.kr/news/photo/201804/47575_90286_20.jpg" width="1200" height="600">
+		</div>
+	</section>
+	
+	<footer>
+		<div class="footer">
+			<div class="intro1">
+				<img alt="no" src="new.png" width="50" height="50">
+				<p>최신 게임</p>
+			</div>
+			<div class="intro2">
+				<img alt="no" src="best-seller.png" width="50" height="50">
+				<p>인기 게임</p>
+			</div>
+			<div class="intro3">
+				<img alt="no" src="coupon.png" width="50" height="50">
+				<p>할인 게임</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
